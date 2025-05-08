@@ -28,7 +28,7 @@ const credentials = {
 };
 // Create the Vision client with the embedded credentials
 const client = new ImageAnnotatorClient({
-  credentials: credentials, // Use the embedded credentials
+  credentials: credentials, // Use the embedded credentials 
 });
 // Function to perform OCR on an image buffer
 export async function google_Vision_OCR(imageBuffer: Buffer): Promise<string | undefined | null> {
